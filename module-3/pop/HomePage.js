@@ -9,14 +9,18 @@ const Elements = require('./Elements');
 
 module.exports = class HomePage extends Layout {
     constructor() {
-        super('/');
+        super('Home Page', "https://www.epam.com/", "body");
 
-        this.header = new Element('Header', by.css('header'));
-        this.header.addChildren(new Element("Logo", by.css('.header__logo')));
-        this.menuItems = new Elements("Menu Items", by.css('.top-navigation__item-link'));
+        this.addChildren(new Element('Header', {css: 'header'}));
+        this.children.Header.addChildren(new Element("Logo", {css: '.header__logo'}));
+        this.addChildren(new Elements("Menu Items", {css: '.top-navigation__item-link'}));
     }
 
     get logo() {
         return this.get('Logo');
+    }
+
+    get menuItems() {
+        return this.get('Menu Items');
     }
 }

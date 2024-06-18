@@ -1,0 +1,75 @@
+[
+  {
+    "arguments": "i",
+    "result": 1
+  },
+  {
+    "arguments": "iv",
+    "result": 4
+  },
+  {
+    "arguments": "xcix",
+    "result": 99
+  },
+  {
+    "arguments": "dlv",
+    "result": 555
+  },
+  {
+    "arguments": "mmmcxc",
+    "result": 3190
+  },
+
+  {
+    "arguments": "mmmcmxcix",
+    "result": 3999
+  },
+  {
+    "arguments": "I",
+    "result": 1
+  },
+  {
+    "arguments": "DI",
+    "result": 501
+  },
+  {
+    "arguments": "XV",
+    "result": 15
+  },
+  {
+    "arguments": "XIX",
+    "result": 19
+  },
+  {
+    "arguments": "MCMLXXXII",
+    "result": 1982
+  },
+  {
+    "arguments": "MCMLXXVII",
+    "result": 1977
+  },
+  {
+    "arguments": "MCMXCIX",
+    "result": 1999
+  },
+  {
+    "arguments": "CMXCIX",
+    "result": 999
+  },
+  {
+    "arguments": "XIV ",
+    "result": 14
+  },
+  {
+    "arguments": " XXXI     ",
+    "result": 31
+  },
+  {
+    "arguments": "\nCXLIV",
+    "result": 144
+  },
+  {
+    "arguments": "CCLXXXVIII\t",
+    "result": 288
+  }
+]

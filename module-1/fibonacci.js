@@ -16,7 +16,24 @@ function fibonacci(n) {
      */
     // PLACE YOUR CODE BETWEEN THIS...
 
+    //nThFibonacci = [...Array(n >= 0 ? n : 0).keys()].map(number => number + 1).reduce((acc, currentValue, index, array) => {
+    //    array[index + 1] = acc + currentValue;
+    //    return currentValue;
+    //}, 0)
+
+    //if (typeof n !== "number" || n < 0) {
+    //    throw new Error("Please provide a valid fibonacci number!")
+    //}
+    if (n <= 0) {
+        nThFibonacci = 0;
+    } else if (n === 1) {
+        nThFibonacci = 1;
+    } else {
+        nThFibonacci = fibonacci(n - 2) + fibonacci(n - 1);
+    }
+
     // ...AND THIS COMMENT LINE!
     return nThFibonacci;
 }
+
 module.exports = fibonacci;

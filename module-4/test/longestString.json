@@ -16,7 +16,7 @@
         "result": "baar"
     },
     {
-        "arguments": [["foo", "arm"]],
+        "arguments": [["Foo", "arm"]],
         "result": "arm"
     },
     {
